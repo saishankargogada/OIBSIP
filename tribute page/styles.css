@@ -1,0 +1,54 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styles for readability */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tribute-section {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Center the image horizontally */
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
